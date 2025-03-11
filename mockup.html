@@ -10,6 +10,38 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <style>
+      body {
+        background: linear-gradient(
+          270deg,
+          #6a11cb,
+          #8e44ad,
+          #3498db,
+          #a29bfe,
+          #6a11cb
+        );
+        background-size: 500% 500%;
+        animation: animateBg 12s ease infinite;
+      }
+
+      @keyframes animateBg {
+        0% {
+          background-position: 0% 50%;
+        }
+        25% {
+          background-position: 50% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        75% {
+          background-position: 50% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+    </style>
   </head>
   <body>
     <header class="mb-5">
